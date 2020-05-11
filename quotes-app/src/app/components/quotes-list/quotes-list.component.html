@@ -1,0 +1,15 @@
+
+
+<div class="quotes-wrapper" appRemoveWrapper>
+    <div class="quote-box" *ngFor="let quote of quoteList">
+        <p class="quote">{{quote.quote}}</p>
+        <span class="author">{{quote.author}}</span>
+        <div class="rating-section">
+            <p class="rating">{{quote.rating}}</p>
+            <div class="push-right">
+            <button (click)="upRate(quote)">+</button>
+            <button (click)="downRate(quote)">-</button>
+            </div>
+        </div>
+    </div>
+</div>

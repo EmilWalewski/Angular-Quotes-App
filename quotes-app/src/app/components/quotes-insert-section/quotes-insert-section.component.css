@@ -1,0 +1,28 @@
+
+.input-container{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+button{
+    width: 70px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+}
+
+.wrapper{
+    transition: .6s ease-in-out;
+    transform: translateX(-220%);
+}
+
+.unwrapper{
+    transform: translateX(0);
+}

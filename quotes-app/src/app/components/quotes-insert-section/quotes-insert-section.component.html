@@ -1,0 +1,7 @@
+
+
+<div class="input-container wrapper" [class.unwrapper]="hideInsertSection" appRemoveWrapper>
+    <input placeholder="Author" type="text" [(ngModel)]="quote.author">
+    <input placeholder="Quote" type="text" [(ngModel)]="quote.quote">
+    <button (click)="add()">Add</button>
+</div>

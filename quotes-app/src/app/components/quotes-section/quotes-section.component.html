@@ -1,0 +1,19 @@
+
+<div class="quotes-container">
+    <app-quotes-insert-section (quoteEmitter)="getQuote($event)"></app-quotes-insert-section>
+    <div class="main-container">
+        <app-quotes-list [quoteList]="quoteList"></app-quotes-list>
+        <div class="rates">
+            <p>Najpopularniejsze cytaty</p>
+            <ng-container *ngFor="let quote of quoteList">
+                <div class="rating-quotes" *ngIf="quote.rating > 0; lessQuotes">
+                    <p class="quote">{{quote.quote}}</p>
+                    <span class="author">{{quote.author}}</span>
+                </div>
+            </ng-container>
+            <ng-template #lessQuotes>
+                <p>Brak cytatow</p>
+            </ng-template>
+        </div>
+    </div>
+</div>

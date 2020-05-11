@@ -1,0 +1,51 @@
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 2%;
+}
+
+.nav-li-first{
+    margin-right: auto;
+}
+
+.nav-li-last{
+    margin-left: auto;
+}
+
+.nav-li-center{
+    margin-left: 0;
+    margin-left: 25%;
+}
+
+.nav-li-add{
+    margin-left: 25%;
+    margin-bottom: -5%;
+}
+
+.nav-li-button{
+    font-size: 50px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    width: 60px;
+    border-radius: 80%;
+}
+
+.nav-li-add button:focus {
+    outline: 0;
+}
+
+.nav-button-click{
+    background-image: linear-gradient(to top right, teal, #09b5b5);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
