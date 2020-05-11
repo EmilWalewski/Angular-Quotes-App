@@ -1,4 +1,4 @@
-# Angular-Quotes-App
+# Angular Quotes Application
 
 Whole application is divide into two parts.
 
